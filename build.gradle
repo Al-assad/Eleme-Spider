@@ -1,0 +1,16 @@
+group 'site.assad'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'us.codecraft:webmagic-core:0.7.3'
+    compile 'us.codecraft:webmagic-extension:0.7.3'
+}
